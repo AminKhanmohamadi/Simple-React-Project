@@ -24,3 +24,27 @@
     border-radius: 5px;
     color: #ffffff;
 }
+
+.counter{
+    display: flex;
+    align-items: center;
+    border-top: 1px silver solid;
+}
+
+.counter img{
+    width: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.counter span{
+    background-color: rgb(62 ,62 ,202);
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.deactive {
+    opacity: 0.3;
+}
